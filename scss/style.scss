@@ -1,0 +1,495 @@
+html, body{
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Navigation */
+nav{
+  .navbar-brand{
+    color: #474a69 !important;
+  }
+
+  .nav-link{
+    color: #474a69 !important;
+  }
+
+  .navbar-dark .navbar-brand{
+    color: #474a69 !important;
+  }
+}
+/* Navigation End */
+
+/* Main */
+main{
+  background-image: url(../img/02.jpeg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+
+  .main-info{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    padding-left: 150px;
+    padding-right: 150px;
+    background: rgba(71, 74, 105, 0.6);
+
+    h1{
+      padding-bottom: 30px;
+      font-size: 4em;
+      color: #fff;
+
+    }
+
+    p{
+      padding-bottom: 30px;
+      font-size: 1.5em;
+      color: #fff;
+    }
+
+    .get-started-btn{
+      display: inline-block;
+      margin-top: 20px;
+      margin-right: 20px;
+      width: 250px;
+      height: 60px;
+      background: #fff;
+      border: 2px solid #fff;
+      color: #474a69;
+      text-align: center;
+      letter-spacing: 1px;
+      font-size: 1.1em;
+      font-weight: bold;
+      text-decoration: none;
+      line-height: 60px;
+    }
+
+    .contact-us-btn{
+      display: inline-block;
+      margin-top: 20px;
+      width: 250px;
+      height: 60px;
+      background: transparent;
+      border: 2px solid #fff;
+      color: #fff;
+      text-align: center;
+      letter-spacing: 1px;
+      font-size: 1.1em;
+      font-weight: bold;
+      text-decoration: none;
+      line-height: 60px;
+    }
+  }
+
+  @media (max-width: 450px) {
+    .main-info{
+      padding: 130px 30px 100px 30px;
+
+      h1{
+        font-size: 3rem;
+      }
+    }
+  }
+}
+/* Main End */
+
+/* Services */
+.services{
+  padding-top: 130px;
+  padding-bottom: 130px;
+  background: #fff;
+
+  .our-services{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    h2{
+      font-size: 4em;
+      color: #474a69;
+      font-weight: 100;
+      text-align: center;
+    }
+
+    .prices-text{
+      font-weight: 300;
+      color: #999;
+      font-size: 1.5em;
+    }
+  }
+
+  .service-item{
+
+    img{
+      margin: 0 auto;
+      margin-top: 70px;
+      display: block;
+      width: 40px;
+      height: 40px;
+    }
+
+    h3{
+      font-weight: 300;
+      padding-top: 40px;
+      padding-bottom: 10px;
+      font-size: 1.5em;
+      font-weight: 500;
+      text-align: center;
+    }
+
+    p{
+      font-weight: 300;
+      color: #999;
+      font-size: 1.3em;
+      text-align: center;
+    }
+  }
+
+  .read-more-btn{
+    display: block;
+    margin: 0 auto;
+    margin-top: 70px;
+    width: 250px;
+    height: 60px;
+    background: #474a69;
+    border: 2px solid #474a69;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 60px;
+  }
+
+  @media (max-width: 450px) {
+      padding: 100px 30px;
+
+      .our-services h2{
+        font-size: 3rem;
+      }
+  }
+}
+/* Services End */
+
+/* About Us */
+.about-us{
+  background-image: url(../img/02.jpeg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .about-us-pic{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background: rgba(71, 74, 105, 0.9);
+
+    h2{
+      padding-bottom: 30px;
+      font-size: 4em;
+      color: #fff;
+      text-align: center;
+    }
+
+    p{
+      padding-left: 150px;
+      padding-right: 150px;
+      padding-bottom: 30px;
+      font-size: 1.3em;
+      color: #fff;
+      text-align: center;
+    }
+
+    .get-started-btn{
+      display: block;
+      margin: 0 auto;
+      width: 250px;
+      height: 60px;
+      background: transparent;
+      border: 2px solid #fff;
+      color: #fff;
+      text-align: center;
+      letter-spacing: 1px;
+      font-size: 1.1em;
+      font-weight: bold;
+      text-decoration: none;
+      line-height: 60px;
+    }
+  }
+
+  .about-us-info{
+    background: rgba(71, 74, 105, 0.6);
+
+  }
+
+  @media (max-width: 450px) {
+    .about-us-pic{
+      padding: 100px 30px;
+
+      h2{
+        font-size: 3rem;
+      }
+
+      p{
+        padding-left: 30px;
+        padding-right: 30px;
+      }
+    }
+  }
+}
+/* About Us End */
+
+/* Prices */
+.prices{
+  padding-top: 130px;
+  padding-bottom: 130px;
+
+  h2{
+    padding-bottom: 10px;
+    font-size: 4em;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 100;
+    color: #474a69;
+  }
+
+  .prices-text{
+    padding-bottom: 40px;
+    text-align: center;
+    font-weight: 300;
+    color: #999;
+    font-size: 1.5em;
+  }
+
+  .service-item{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    background: white;
+    border: 1px solid #ccc;
+
+    h3{
+      text-transform: uppercase;
+      font-size: 1em;
+      font-weight: bold;
+      color: #474a69;
+      letter-spacing: 2px;
+    }
+
+    h2{
+      padding-top: 20px;
+      font-weight: 300;
+      padding-bottom: 15px;
+      font-size: 2.5em;
+      font-weight: 500;
+      color: #333;
+    }
+
+    .category{
+      font-weight: 300;
+      color: #999;
+      font-size: 1em;
+      font-weight: 500;
+    }
+
+    ul{
+      list-style-type: none;
+      padding: 0;
+      color: #999;
+    }
+
+    .price{
+      padding-top: 50px;
+      font-size: 1.5em;
+      font-weight: 500;
+      color: #333;
+      letter-spacing: 2px;
+    }
+
+    .time{
+      color: #999;
+      font-size: 0.7em;
+      margin-top: -15px;
+      font-weight: bold;
+    }
+
+    &:nth-child(2){
+      background: #474a69;
+      border: none;
+
+      h3,
+      h2,
+      .category,
+      ul,
+      .price,
+      .time{
+        color: #fff;
+      }
+    }
+  }
+
+  .read-more-btn{
+    display: block;
+    margin: 0 auto;
+    margin-top: 70px;
+    width: 250px;
+    height: 60px;
+    background: transparent;
+    border: 2px solid #474a69;
+    color: #474a69;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 60px;
+  }
+
+  @media (max-width: 450px) {
+      padding: 100px 30px;
+
+      h2{
+        font-size: 3rem;
+      }
+
+      p{
+        padding-left: 30px;
+        padding-right: 30px;
+      }
+  }
+}
+/* Prices End */
+
+/* Email */
+.email{
+  background-image: url(../img/01.jpeg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+
+  .starting{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: rgba(71, 74, 105, 0.6);
+
+    h2{
+      padding-bottom: 10px;
+      color: #fff;
+      text-align: center;
+      font-size: 4em;
+    }
+
+    p{
+      padding-bottom: 20px;
+      color: #fff;
+      text-align: center;
+      font-size: 1.4em;
+    }
+
+    .sign-up{
+      display: block;
+      margin: 0 auto;
+      margin-top: 50px;
+      width: 250px;
+      height: 60px;
+      background: #fff;
+      border: 2px solid #fff;
+      color: #474a69;
+      text-align: center;
+      letter-spacing: 1px;
+      font-size: 1.1em;
+      font-weight: bold;
+      text-decoration: none;
+      line-height: 60px;
+    }
+  }
+
+  @media (max-width: 450px) {
+  .starting h2{
+      font-size: 3rem;
+    }
+}
+}
+/* Email End */
+
+/* Contact Us */
+.contact{
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  p{
+    text-align: justify;
+    font-weight: 300;
+    color: #999;
+    font-size: 1.3em;
+  }
+
+  h2{
+    padding-bottom: 30px;
+    font-weight: bold;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    color: #474a69;
+  }
+
+  .social-network img{
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+
+  ul{
+    list-style-type: none;
+    padding: 0;
+  }
+
+  li{
+    color: #999;
+    font-size: 1.3em;
+    padding-bottom: 10px;
+  }
+
+  a{
+    color: #999;
+    text-decoration: none;
+
+    &:hover{
+      color: #23345c;
+    }
+  }
+
+  .read-more-btn{
+    display: block;
+    margin: 40px auto;
+    width: 170px;
+    height: 45px;
+    background: #22345c;
+    border-radius: 30px;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 1em;
+    font-weight: 300;
+    text-decoration: none;
+    line-height: 45px;
+  }
+}
+/* Contact End */
+
+/* Footer */
+.footer{
+  p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: 300;
+    color: #999;
+    font-size: 1em;
+  }
+}
+/* Footer End */
